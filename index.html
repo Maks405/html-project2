@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Стаття: Розмітка тексту</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Розмітка великого тексту з використанням HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">1. Вступ</a></li>
+                <li><a href="#section2">2. Форматування</a></li>
+                <li><a href="#section3">3. Зображення</a></li>
+                <li><a href="#section4">4. Посилання</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>1. Вступ</h2>
+            <p>
+                <strong>HTML</strong> дозволяє ефективно структурувати великі обсяги тексту за допомогою <em>заголовків</em>, абзаців, списків, цитат тощо.
+            </p>
+            <p>
+                Для зручності читача використовують заголовки від <code>&lt;h1&gt;</code> до <code>&lt;h6&gt;</code>, які формують логічну структуру документа.
+            </p>
+        </section>
+
+        <section id="section2">
+            <h2>2. Форматування</h2>
+            <h3>2.1 Абзаци та виділення</h3>
+            <p>Цей абзац містить <strong>жирний текст</strong>, <em>курсив</em> і <u>підкреслений текст</u>.</p>
+            <h3>2.2 Цитати</h3>
+            <blockquote>
+                "Інтернет — це не просто технологія, це двері у світ можливостей." — невідомий автор
+            </blockquote>
+        </section>
+
+        <section id="section3">
+            <h2>3. Зображення</h2>
+            <h3>3.1 Стандартне зображення</h3>
+            <img src="images/sunset.jpg" alt="Захід сонця" width="400">
+
+            <h3>3.2 Зображення з підписом</h3>
+            <figure>
+                <img src="images/mountains.jpg" alt="Гори" width="400">
+                <figcaption>Мальовничий вид на гори</figcaption>
+            </figure>
+        </section>
+
+        <section id="section4">
+            <h2>4. Посилання</h2>
+            <h3>4.1 Внутрішнє посилання</h3>
+            <p>Повернутись до <a href="#section1">вступу</a>.</p>
+
+            <h3>4.2 Посилання на інший документ</h3>
+            <p>Дивіться також <a href="about.html">іншу сторінку про HTML</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Розмітка HTML. Всі права захищено.</p>
+    </footer>
+</body>
+</html>
